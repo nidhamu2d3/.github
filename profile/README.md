@@ -2,7 +2,7 @@
   <a href="https://github.com/TechnoTUT/TechnoTUT/">
     <img src="https://komarev.com/ghpvc/?username=TechnoTUT" alt="TechnoTUT" />
   </a>
-  <a href="http://twitter.com/TechnoTUT">
+  <a href="http://twitter.com/ToyohashiTechno">
     <img height="20" src="https://img.shields.io/twitter/follow/TechnoTUT?label=Twitter&logo=twitter&style=flat" />
   </a>
   <a href="https://github.com/TechnoTUT">
@@ -16,7 +16,7 @@
 We are TechnoTUT, Official Music & Live production Club of Toyohashi University of Technology. We are interested in Music and Technology.  
 Main activities are Organizing Music Events, DJing, Music Production, and Stage Performance.  
 
-豊橋技術科学大学 音楽技術部 です.  
+豊橋技術科学大学 音楽技術部 です。  
 DJを主体とした音楽イベントの開催をメインとして活動を行っています。DJ以外にも、イベントを盛り上げるためのステージパフォーマンスの研究や楽曲制作・頒布を行い、音楽の魅力を伝えるサークルとして活動しています。
 
 Visit [technotut.net](https://technotut.net) for more information.  
