@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "TechnoTUT",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo/Logo_Bwhite.png",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "TechnoTUT logo"
+  },
+
+  "settings": {
+    "pagination": 7,
+    "summary_length": 200,
+    "blog_folder": "news"
+  },
+
+  "nav_button": {
+    "enable": false,
+    "label": "制作楽曲(bandcamp)",
+    "link": "https://technotut.bandcamp.com/"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "豊橋技術科学大学 音楽技術部<br/> Music & Live production Club<br/> TechnoTUT: Official Club of Toyohashi University of Technology. We are interested in music and technology.",
+    "copyright": "© Copyright 2014 - 2023 [TechnoTUT](https://technotut.net/)"
+  },
+
+  "metadata": {
+    "meta_author": "TechnoTUT",
+    "meta_image": "/images/index/top.jpg",
+    "meta_description": "豊橋技術科学大学 音楽技術部 (TechnoTUT) 公式ホームページ"
+  }
+}

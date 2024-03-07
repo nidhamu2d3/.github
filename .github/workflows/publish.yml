@@ -1,0 +1,40 @@
+on: [push, workflow_dispatch]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/cache@v3
+        id: node_modules_cache_id
+        env:
+          cache-name: cache-node-modules
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
+      - run: echo '${{ toJSON(steps.node_modules_cache_id.outputs) }}'
+      - if: ${{ steps.node_modules_cache_id.outputs.cache-hit != 'true' }}
+        run: npm install
+      - name: export
+        run: npm run export
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: technotut
+          directory: ./out
+          # Optional: Enable this if you want to have GitHub Deployments triggered
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: Switch what branch you are publishing to.
+          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
+          wranglerVersion: '3'

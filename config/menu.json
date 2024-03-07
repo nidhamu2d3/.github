@@ -1,0 +1,89 @@
+{
+  "main": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Activity",
+      "url": "/activity"
+    },
+    {
+      "name": "News",
+      "url": "/news"
+    },
+    {
+      "name": "Docs",
+      "url": "https://docs.technotut.net/"
+    },
+    {
+      "name": "Ramen",
+      "url": "/ramen"
+    },
+    {
+      "name": "FAQ",
+      "url": "/faq"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    },
+    {
+      "name": "Special",
+      "url": "/shinkan2024"
+    },
+    {
+      "name": "Bandcamp",
+      "url": "https://technotut.bandcamp.com/"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Address",
+      "menu": [
+        {
+          "text": "愛知県豊橋市",
+          "url": "https://goo.gl/maps/mpwf4SeMmTv4SUoN8"
+        },
+        {
+          "text": "天伯町雲雀ヶ丘１－１",
+          "url": "https://goo.gl/maps/mpwf4SeMmTv4SUoN8"
+        },
+        {
+          "text": "豊橋技術科学大学",
+          "url": "https://goo.gl/maps/mpwf4SeMmTv4SUoN8"
+        },
+        {
+          "text": "クラブハウス ２階 音楽技術部室",
+          "url": "https://goo.gl/maps/mpwf4SeMmTv4SUoN8"
+        }
+      ]
+    },
+    {
+      "name": "",
+      "menu": [
+        {
+          "text": "",
+          "url": ""
+        },
+        {
+          "text": "",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "menu": [
+        {
+          "text": "contact@",
+          "url": "/contact"
+        },
+        {
+          "text": "※末尾に「technotut.net」を補完してください",
+          "url": "/contact"
+        }
+      ]
+    }
+  ]
+}
