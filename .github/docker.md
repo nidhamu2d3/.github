@@ -62,3 +62,26 @@ BASEを `main` に, MERGEを `最初に設定したブランチ名` に設定し
 
 ## 11. お疲れ様でした
 管理者によってレビューが行われます. 問題がなければ, プルリクエストがマージされ, 編集した内容が本番環境に反映されます. 
+
+## 12. その他
+コンテナランタイムにDockerではなく, Podmanを使用することができます. 以下にPodmanでの環境構築方法を記載します.  
+### Podmanのインストール
+#### Windows
+```powershell
+winget install RedHat.podman
+```
+#### Mac
+```zsh
+brew install podman
+```
+
+Podmanのインストールが完了したら, `podman machine init` を実行します.  
+その後, `podman machine set --rootful` を実行し, `podman machine start` を実行します.  
+
+### VSCodeの設定変更
+`2.` の手順でVisual Studio Code本体と拡張機能をインストールした後, 拡張機能設定でdocker pathを`podman`に変更します.
+
+### リポジトリを開く
+`3.` の手順でリポジトリを開く際, `Dev Containers: Open Folder in Container...`を選択します.
+
+以降の手順はDocker同様です.
