@@ -29,7 +29,11 @@
       "url": "/contact"
     },
     {
-      "name": "Bandcamp",
+      "name": "Access",
+      "url": "/access"
+    },
+    {
+      "name": "Discography",
       "url": "https://technotut.bandcamp.com/"
     }
   ],
